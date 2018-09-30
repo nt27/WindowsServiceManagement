@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindowsServiceManagement.exe" version="1.0.0.0" publicKeyToken="15d3877f92f3136e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsServiceManagement" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WindowsServiceManagement.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Management.Infrastructure" version="1.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Management.Infrastructure.Native" version="1.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="amd64" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Management.Automation.dll" size="7154176">
+      <assemblyIdentity name="System.Management.Automation" version="3.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Dp379fnb1TagyPLwunoRgW42uXNQSw/ZrFhJzTmiKpg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsServiceManagement.exe" size="15320">
+      <assemblyIdentity name="WindowsServiceManagement" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PxnIcYgnYhtnltrI7+DsNDtPcP9POxqMs86Z1m377bw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ServiceConfig.xml" size="1622" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B4W1dxVKl2+nMhPKjz/bHpdgVUv2HNcXU5Wmi4jCGlQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WindowsServiceManagement.exe.config" size="667">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RiAdtCfuivhemMcXW11rV7hrIQnY1qq5S40cYfrS4Wc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=win-vs-sql\cgiadmin" issuerKeyHash="49e5c765ca8e41cfbc24910f9dc9594f032e6f84" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>phQ+omr4TQ+rFZoyLL+3MWFfXB3Y5wHbhUMWQsGgES4=</DigestValue></Reference></SignedInfo><SignatureValue>Bmb1BoUzoypWLQaHrsh43G2oCfVq3APrKO6kamOTFymzrgYKHEGFaj66oCLhNRxkNsfQeFH4yJDyiN7t7QAyjWboI1FuIXhkYPhkESJasA0tpwEMqODgOQK7iov+TwY0pUQ5K8zvZJyaIeDkH3khYJr8NUjBXyidcZpsSHD4gSk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oGNCYQPq0z9v8Re4mcVhm5ElGa3J7rLaRddvSx+4MEHRHpBkfKNuVcjBh6VONCwnY39M50p7FGw1a0z5BSW6xuhhiUkdkcTucnCMfzZMYhs+QAh6ixkLtA9yC9NcWzNLL3g6t1sKA+nZcGBRFvzbN4Zsl8tyZhC98fgO4vTmuqM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2e11a0c142164385db01e7d81d5c5f6131b7bf2c329a15ab0f4df86aa23e14a6" Description="" Url=""><as:assemblyIdentity name="WindowsServiceManagement.exe" version="1.0.0.0" publicKeyToken="15d3877f92f3136e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=win-vs-sql\cgiadmin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LogvtSuYdyRackGavweBMzn/GR17NPDkSAch5XIqapE=</DigestValue></Reference></SignedInfo><SignatureValue>JuDQprFadL+xJqoC272vhlTD7BBwNMzik6LCH71mKcuXu0bfMAVyGrVfQSXF7FEAMt+FCUYqppr6haPj7szvpfJnnAugcIR8O3t4TAjrT1bM2VxwQ2irCjZ6y7M9YYha1gfxccagoMk0Qk9II/dYqiIBHFl9hS+eA5MIkCNbcnE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oGNCYQPq0z9v8Re4mcVhm5ElGa3J7rLaRddvSx+4MEHRHpBkfKNuVcjBh6VONCwnY39M50p7FGw1a0z5BSW6xuhhiUkdkcTucnCMfzZMYhs+QAh6ixkLtA9yC9NcWzNLL3g6t1sKA+nZcGBRFvzbN4Zsl8tyZhC98fgO4vTmuqM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQdSwCMWukLaNCbqcDPBP8fTANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAdwBpAG4ALQB2AHMALQBzAHEAbABcAGMAZwBpAGEAZABtAGkAbjAeFw0xODA5MzAxNjQxMTNaFw0xOTA5MzAyMjQxMTNaMDExLzAtBgNVBAMeJgB3AGkAbgAtAHYAcwAtAHMAcQBsAFwAYwBnAGkAYQBkAG0AaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCgY0JhA+rTP2/xF7iZxWGbkSUZrcnustpF129LH7gwQdEekGR8o25VyMGHpU40LCdjf0znSnsUbDVrTPkFJbrG6GGJSR2RxO5ycIx/NkxiGz5ACHqLGQu0D3IL01xbM0sveDq3WwoD6dlwYFEW/Ns3hmyXy3JmEL3x+A7i9Oa6owIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAFz59P1/hF2+kWn7WWRhBqP02odRJ0OYVI0+czRFPPGscDN/nu6YevVyja6uYpd4pR6Q56f1cu+ooJOfKaDSghgo0Tp4s9SZ9Wz2i1K6+yxHHh67qE2Pm8zj869ffH22+50vPS9EKcJ6vWifWKOdvYn4hV+w/HpJncAQhRVjSO5T</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

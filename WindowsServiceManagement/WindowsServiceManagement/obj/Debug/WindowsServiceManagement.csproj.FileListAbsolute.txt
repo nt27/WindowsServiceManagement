@@ -1,0 +1,13 @@
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Debug\WindowsServiceManagement.Properties.Resources.resources
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Debug\WindowsServiceManagement.WindowsServiceManagement.resources
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Debug\WindowsServiceManagement.csproj.GenerateResource.Cache
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Debug\WindowsServiceManagement.exe.config
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Debug\WindowsServiceManagement.exe
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Debug\WindowsServiceManagement.pdb
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Debug\System.Management.Automation.dll
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Debug\WindowsServiceManagement.exe
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Debug\WindowsServiceManagement.pdb
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Debug\WindowsServiceManagement.exe.manifest
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Debug\WindowsServiceManagement.application
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Debug\WindowsServiceManagement.exe.manifest
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Debug\WindowsServiceManagement.application

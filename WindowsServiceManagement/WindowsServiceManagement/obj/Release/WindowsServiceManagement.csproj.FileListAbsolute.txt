@@ -1,0 +1,13 @@
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Release\WindowsServiceManagement.exe.config
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Release\WindowsServiceManagement.exe.manifest
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Release\WindowsServiceManagement.application
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Release\WindowsServiceManagement.exe
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Release\WindowsServiceManagement.pdb
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\bin\Release\System.Management.Automation.dll
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Release\WindowsServiceManagement.Properties.Resources.resources
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Release\WindowsServiceManagement.WindowsServiceManagement.resources
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Release\WindowsServiceManagement.csproj.GenerateResource.Cache
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Release\WindowsServiceManagement.exe.manifest
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Release\WindowsServiceManagement.application
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Release\WindowsServiceManagement.exe
+c:\users\cgiadmin\documents\visual studio 2017\Projects\WindowsServiceManagement\WindowsServiceManagement\obj\Release\WindowsServiceManagement.pdb
