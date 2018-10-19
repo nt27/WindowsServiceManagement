@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26228.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceManagement", "WindowsServiceManagement\WindowsServiceManagement.csproj", "{9B05CFDB-E81F-47D0-AA5C-C4DDDDF7D57D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceManagement-WebApp", "ServiceManagement-WebApp\ServiceManagement-WebApp.csproj", "{5C9EC2BD-3A73-4B38-A5D8-B179736D9147}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{9B05CFDB-E81F-47D0-AA5C-C4DDDDF7D57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B05CFDB-E81F-47D0-AA5C-C4DDDDF7D57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B05CFDB-E81F-47D0-AA5C-C4DDDDF7D57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9EC2BD-3A73-4B38-A5D8-B179736D9147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9EC2BD-3A73-4B38-A5D8-B179736D9147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9EC2BD-3A73-4B38-A5D8-B179736D9147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9EC2BD-3A73-4B38-A5D8-B179736D9147}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACEF4663-61CC-41EA-B5E4-784FC438708B}
 	EndGlobalSection
 EndGlobal

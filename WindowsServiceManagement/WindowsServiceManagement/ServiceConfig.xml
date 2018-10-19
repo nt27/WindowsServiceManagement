@@ -1,33 +1,14 @@
 ﻿<WindowsServiceDetails>
   <Environment Name="Dev">
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="aspnet_state" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppXSvc" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppMgmt" />
+    <ServiceDetails ServerName="win2016-sql" ServiceName="svsvc" />
+    <ServiceDetails ServerName="win2016-sql" ServiceName="NgcSvc" />
+    <ServiceDetails ServerName="win2016-sql" ServiceName="svsvc" />
   </Environment>
   <Environment Name="SIT">
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="aspnet_state" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppXSvc" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppMgmt" />
+    <ServiceDetails ServerName="win2016-sql" ServiceName="svsvc" />
+    <ServiceDetails ServerName="win2016-sql" ServiceName="NgcSvc" />
+    <ServiceDetails ServerName="win2016-sql" ServiceName="svsvc" />
   </Environment>
-  <Environment Name="TRN">
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="aspnet_state" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppXSvc" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppMgmt" />
-  </Environment>
-  <Environment Name="PRE">
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="aspnet_state" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppXSvc" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppMgmt" />
-  </Environment>
-  <Environment Name="PRD">
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="aspnet_state" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppXSvc" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppMgmt" />
-  </Environment>
-  <Environment Name="DMG">
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="aspnet_state" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppXSvc" />
-    <ServiceDetails ServerName="win-vs-sql" ServiceName="AppMgmt" />
-  </Environment>
+ 
 </WindowsServiceDetails>
 

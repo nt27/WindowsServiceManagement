@@ -1,0 +1,14 @@
+﻿<WindowsServiceDetails>
+  <Environment Name="Dev">
+    <ServiceDetails ServerName="win2016-sql" ServiceName="svsvc" />
+    <ServiceDetails ServerName="win2016-sql" ServiceName="NgcSvc" />
+    <ServiceDetails ServerName="win2016-sql" ServiceName="svsvc" />
+  </Environment>
+  <Environment Name="SIT">
+    <ServiceDetails ServerName="win2016-sql" ServiceName="svsvc" />
+    <ServiceDetails ServerName="win2016-sql" ServiceName="NgcSvc" />
+    <ServiceDetails ServerName="win2016-sql" ServiceName="svsvc" />
+  </Environment>
+ 
+</WindowsServiceDetails>
+
